@@ -1,0 +1,8 @@
+# Python helpers and notebook kernel (the project-level .venv).
+pandas>=2.0
+praatio>=6.2
+jupyter>=1.0
+
+# Montreal Forced Aligner is binary-heavy and is installed separately from
+# conda-forge using environment.yml. Keeping it outside .venv avoids changing
+# the environments used by laboratory works 1 and 2.
