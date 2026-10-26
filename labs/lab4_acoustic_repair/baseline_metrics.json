@@ -1,0 +1,32 @@
+{
+  "checkpoint": "labs/lab4_acoustic/artifacts/best_model_742028.pth",
+  "device": "cuda",
+  "test_samples": 1093,
+  "duration": {
+    "mae": 3.554004233427254,
+    "bias": -1.928592455527987,
+    "correlation": 0.42742988567001433,
+    "predicted_mean": 4.549125979505726,
+    "target_mean": 6.477718435033713
+  },
+  "pitch": {
+    "mae": 0.3160775542619856,
+    "bias": -0.03902565934934007,
+    "correlation": 0.22377194220638544,
+    "predicted_mean": -0.042517574659427564,
+    "target_mean": -0.003491915310087495
+  },
+  "energy_free_pitch": {
+    "mae": 0.7297693935213267,
+    "bias": 0.2638283918367581,
+    "correlation": 0.2782189935348005,
+    "predicted_mean": 0.15196586946901733,
+    "target_mean": -0.11186252236774077
+  },
+  "frame_ratio": {
+    "mean": 0.729620823075983,
+    "p10": 0.6305048346519471,
+    "p50": 0.7214953303337097,
+    "p90": 0.8444338202476502
+  }
+}

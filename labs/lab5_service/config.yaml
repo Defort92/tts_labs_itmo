@@ -1,0 +1,21 @@
+service:
+  device: auto
+  max_text_chars: 500
+  edge_silence_ms: 80
+  # False keeps API startup fast; models are still loaded once on the first request.
+  preload_models: false
+
+acoustic:
+  checkpoint: artifacts/acoustic/model.pth
+  config: artifacts/acoustic/config.json
+
+frontend:
+  # These are outputs of labs 2 and 3. They remain outside Git because data/ is ignored.
+  pause_model: ../../data/lab2_pauses/pause_model.joblib
+  pronunciation_dictionary: ../../data/lab3_g2p/corpus_mfa.dict
+
+vocoder:
+  name: vocoder_models/en/ljspeech/hifigan_v2
+  checkpoint: artifacts/vocoder/tts/vocoder_models--en--ljspeech--hifigan_v2/model.pth
+  config: artifacts/vocoder/tts/vocoder_models--en--ljspeech--hifigan_v2/config.json
+

@@ -1,0 +1,24 @@
+{
+  "checkpoint": "best_model_742028.pth",
+  "sha256": "c2528be35c872db8ec0da8cf2f6f062cb142c2228a41e6fd344f2c3b2f37e037",
+  "size_bytes": 451818760,
+  "selection_rule": "minimum validation avg_loss",
+  "epoch": 298,
+  "global_step": 742028,
+  "validation": {
+    "avg_loss": 1.498668476831883,
+    "avg_loss_spec": 1.3626502028218395,
+    "avg_loss_dur": 0.04981555989770979,
+    "avg_loss_pitch": 0.041633659194189095,
+    "avg_loss_energy": 0.04456906260940481,
+    "avg_duration_error": 4.139645350420913
+  },
+  "training": {
+    "architecture": "FastSpeech 2 (course Coqui TTS fork)",
+    "epochs_completed": 300,
+    "train_samples": 19659,
+    "validation_samples": 1092,
+    "test_samples_held_out": 1093,
+    "seed": 42
+  }
+}

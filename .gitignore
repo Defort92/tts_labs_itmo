@@ -4,6 +4,14 @@ data/*
 *.pth
 *.TextGrid
 
+# Небольшие итоговые примеры лабораторной №5 входят в отчёт.
+!labs/lab5_service/examples/
+!labs/lab5_service/examples/*.wav
+
+# Итоговая модель лабораторной №4 хранится через Git LFS.
+!labs/lab4_acoustic/artifacts/
+!labs/lab4_acoustic/artifacts/*.pth
+
 # окружение
 .venv/
 __pycache__/

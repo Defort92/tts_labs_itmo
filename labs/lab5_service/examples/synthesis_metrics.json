@@ -1,0 +1,599 @@
+[
+  {
+    "original_text": "Сегодня хорошая погода.",
+    "normalized_text": "Сегодня хорошая погода.",
+    "words": [
+      {
+        "word": "Сегодня",
+        "normalized": "сегодня",
+        "phones": [
+          "sʲ",
+          "ɪ",
+          "v",
+          "o",
+          "dʲ",
+          "ɲ",
+          "ə"
+        ]
+      },
+      {
+        "word": "хорошая",
+        "normalized": "хорошая",
+        "phones": [
+          "x",
+          "ə",
+          "r",
+          "ɐ",
+          "ʂ",
+          "a",
+          "j",
+          "ə"
+        ]
+      },
+      {
+        "word": "погода",
+        "normalized": "погода",
+        "phones": [
+          "p",
+          "ɐ",
+          "ɡ",
+          "o",
+          "d̪",
+          "ə"
+        ]
+      }
+    ],
+    "phones": [
+      "sil",
+      "sʲ",
+      "ɪ",
+      "v",
+      "o",
+      "dʲ",
+      "ɲ",
+      "ə",
+      "x",
+      "ə",
+      "r",
+      "ɐ",
+      "ʂ",
+      "a",
+      "j",
+      "ə",
+      "p",
+      "ɐ",
+      "ɡ",
+      "o",
+      "d̪",
+      "ə",
+      "sil"
+    ],
+    "pauses": [
+      {
+        "boundary_index": "0",
+        "left_word": "Сегодня",
+        "right_word": "хорошая",
+        "punctuation": "NONE",
+        "position_ratio": 0.3333333333333333,
+        "pause_probability": 0.16517724216107024,
+        "has_pause": false,
+        "duration_ms": 0.0
+      },
+      {
+        "boundary_index": "1",
+        "left_word": "хорошая",
+        "right_word": "погода",
+        "punctuation": "NONE",
+        "position_ratio": 0.6666666666666666,
+        "pause_probability": 0.12654460482328503,
+        "has_pause": false,
+        "duration_ms": 0.0
+      }
+    ],
+    "duration_overrides": {
+      "0": 7,
+      "22": 7
+    },
+    "phone_durations_frames": [
+      7,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      5,
+      6,
+      5,
+      5,
+      5,
+      6,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      4,
+      4,
+      7
+    ],
+    "mel_frames": 125,
+    "sample_rate": 22050,
+    "audio_duration_s": 1.5673469387755101,
+    "synthesis_time_s": 0.5917233999934979,
+    "real_time_factor": 0.3775318567666849,
+    "timings": {
+      "frontend_s": 0.013945700018666685,
+      "acoustic_s": 0.4799467999837361,
+      "vocoder_s": 0.09721839998383075
+    },
+    "wav": "sample_01.wav"
+  },
+  {
+    "original_text": "Он остановился, потом медленно продолжил путь.",
+    "normalized_text": "Он остановился, потом медленно продолжил путь.",
+    "words": [
+      {
+        "word": "Он",
+        "normalized": "он",
+        "phones": [
+          "o",
+          "n̪"
+        ]
+      },
+      {
+        "word": "остановился",
+        "normalized": "остановился",
+        "phones": [
+          "ɐ",
+          "s̪",
+          "t̪",
+          "ə",
+          "n̪",
+          "ɐ",
+          "vʲ",
+          "i",
+          "ɫ",
+          "sʲ",
+          "ə"
+        ]
+      },
+      {
+        "word": "потом",
+        "normalized": "потом",
+        "phones": [
+          "p",
+          "ɐ",
+          "t̪",
+          "o",
+          "m"
+        ]
+      },
+      {
+        "word": "медленно",
+        "normalized": "медленно",
+        "phones": [
+          "mʲ",
+          "e",
+          "d̪",
+          "ʎ",
+          "ɪ",
+          "n̪ː",
+          "ə"
+        ]
+      },
+      {
+        "word": "продолжил",
+        "normalized": "продолжил",
+        "phones": [
+          "p",
+          "r",
+          "ɐ",
+          "d̪",
+          "o",
+          "ɫ",
+          "ʐ",
+          "ɨ",
+          "ɫ"
+        ]
+      },
+      {
+        "word": "путь",
+        "normalized": "путь",
+        "phones": [
+          "p",
+          "u",
+          "tʲ"
+        ]
+      }
+    ],
+    "phones": [
+      "sil",
+      "o",
+      "n̪",
+      "ɐ",
+      "s̪",
+      "t̪",
+      "ə",
+      "n̪",
+      "ɐ",
+      "vʲ",
+      "i",
+      "ɫ",
+      "sʲ",
+      "ə",
+      "sil",
+      "p",
+      "ɐ",
+      "t̪",
+      "o",
+      "m",
+      "mʲ",
+      "e",
+      "d̪",
+      "ʎ",
+      "ɪ",
+      "n̪ː",
+      "ə",
+      "p",
+      "r",
+      "ɐ",
+      "d̪",
+      "o",
+      "ɫ",
+      "ʐ",
+      "ɨ",
+      "ɫ",
+      "sil",
+      "p",
+      "u",
+      "tʲ",
+      "sil"
+    ],
+    "pauses": [
+      {
+        "boundary_index": "0",
+        "left_word": "Он",
+        "right_word": "остановился",
+        "punctuation": "NONE",
+        "position_ratio": 0.16666666666666666,
+        "pause_probability": 0.022037613671967184,
+        "has_pause": false,
+        "duration_ms": 0.0
+      },
+      {
+        "boundary_index": "1",
+        "left_word": "остановился",
+        "right_word": "потом",
+        "punctuation": ",",
+        "position_ratio": 0.3333333333333333,
+        "pause_probability": 0.764882430947341,
+        "has_pause": true,
+        "duration_ms": 230.45494155165244
+      },
+      {
+        "boundary_index": "2",
+        "left_word": "потом",
+        "right_word": "медленно",
+        "punctuation": "NONE",
+        "position_ratio": 0.5,
+        "pause_probability": 0.12530088610235143,
+        "has_pause": false,
+        "duration_ms": 0.0
+      },
+      {
+        "boundary_index": "3",
+        "left_word": "медленно",
+        "right_word": "продолжил",
+        "punctuation": "NONE",
+        "position_ratio": 0.6666666666666666,
+        "pause_probability": 0.08815878123006216,
+        "has_pause": false,
+        "duration_ms": 0.0
+      },
+      {
+        "boundary_index": "4",
+        "left_word": "продолжил",
+        "right_word": "путь",
+        "punctuation": "NONE",
+        "position_ratio": 0.8333333333333334,
+        "pause_probability": 0.8267545784519084,
+        "has_pause": true,
+        "duration_ms": 123.67491522335797
+      }
+    ],
+    "duration_overrides": {
+      "0": 7,
+      "14": 20,
+      "36": 11,
+      "40": 7
+    },
+    "phone_durations_frames": [
+      7,
+      6,
+      6,
+      6,
+      6,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      6,
+      5,
+      20,
+      5,
+      4,
+      5,
+      4,
+      5,
+      5,
+      5,
+      5,
+      4,
+      4,
+      5,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      5,
+      11,
+      4,
+      3,
+      3,
+      7
+    ],
+    "mel_frames": 217,
+    "sample_rate": 22050,
+    "audio_duration_s": 2.6354648526077096,
+    "synthesis_time_s": 0.08170869998866692,
+    "real_time_factor": 0.031003524827059915,
+    "timings": {
+      "frontend_s": 0.0015023999731056392,
+      "acoustic_s": 0.02854139998089522,
+      "vocoder_s": 0.05138640000950545
+    },
+    "wav": "sample_02.wav"
+  },
+  {
+    "original_text": "Вечером над городом поднялся холодный ветер.",
+    "normalized_text": "Вечером над городом поднялся холодный ветер.",
+    "words": [
+      {
+        "word": "Вечером",
+        "normalized": "вечером",
+        "phones": [
+          "vʲ",
+          "e",
+          "tɕ",
+          "ɪ",
+          "r",
+          "ə",
+          "m"
+        ]
+      },
+      {
+        "word": "над",
+        "normalized": "над",
+        "phones": [
+          "n̪",
+          "ə",
+          "t̪"
+        ]
+      },
+      {
+        "word": "городом",
+        "normalized": "городом",
+        "phones": [
+          "ɡ",
+          "o",
+          "r",
+          "ə",
+          "d̪",
+          "ə",
+          "m"
+        ]
+      },
+      {
+        "word": "поднялся",
+        "normalized": "поднялся",
+        "phones": [
+          "p",
+          "ɐ",
+          "dʲ",
+          "ɲ",
+          "a",
+          "ɫ",
+          "sʲ",
+          "ə"
+        ]
+      },
+      {
+        "word": "холодный",
+        "normalized": "холодный",
+        "phones": [
+          "x",
+          "ɐ",
+          "ɫ",
+          "o",
+          "d̪",
+          "n̪",
+          "ɨ",
+          "j"
+        ]
+      },
+      {
+        "word": "ветер",
+        "normalized": "ветер",
+        "phones": [
+          "vʲ",
+          "e",
+          "tʲ",
+          "ɪ",
+          "r"
+        ]
+      }
+    ],
+    "phones": [
+      "sil",
+      "vʲ",
+      "e",
+      "tɕ",
+      "ɪ",
+      "r",
+      "ə",
+      "m",
+      "n̪",
+      "ə",
+      "t̪",
+      "ɡ",
+      "o",
+      "r",
+      "ə",
+      "d̪",
+      "ə",
+      "m",
+      "p",
+      "ɐ",
+      "dʲ",
+      "ɲ",
+      "a",
+      "ɫ",
+      "sʲ",
+      "ə",
+      "x",
+      "ɐ",
+      "ɫ",
+      "o",
+      "d̪",
+      "n̪",
+      "ɨ",
+      "j",
+      "vʲ",
+      "e",
+      "tʲ",
+      "ɪ",
+      "r",
+      "sil"
+    ],
+    "pauses": [
+      {
+        "boundary_index": "0",
+        "left_word": "Вечером",
+        "right_word": "над",
+        "punctuation": "NONE",
+        "position_ratio": 0.16666666666666666,
+        "pause_probability": 0.39797277501266975,
+        "has_pause": false,
+        "duration_ms": 0.0
+      },
+      {
+        "boundary_index": "1",
+        "left_word": "над",
+        "right_word": "городом",
+        "punctuation": "NONE",
+        "position_ratio": 0.3333333333333333,
+        "pause_probability": 0.03863297098944322,
+        "has_pause": false,
+        "duration_ms": 0.0
+      },
+      {
+        "boundary_index": "2",
+        "left_word": "городом",
+        "right_word": "поднялся",
+        "punctuation": "NONE",
+        "position_ratio": 0.5,
+        "pause_probability": 0.4113019737702145,
+        "has_pause": false,
+        "duration_ms": 0.0
+      },
+      {
+        "boundary_index": "3",
+        "left_word": "поднялся",
+        "right_word": "холодный",
+        "punctuation": "NONE",
+        "position_ratio": 0.6666666666666666,
+        "pause_probability": 0.4543992044708822,
+        "has_pause": false,
+        "duration_ms": 0.0
+      },
+      {
+        "boundary_index": "4",
+        "left_word": "холодный",
+        "right_word": "ветер",
+        "punctuation": "NONE",
+        "position_ratio": 0.8333333333333334,
+        "pause_probability": 0.03369931022026597,
+        "has_pause": false,
+        "duration_ms": 0.0
+      }
+    ],
+    "duration_overrides": {
+      "0": 7,
+      "39": 7
+    },
+    "phone_durations_frames": [
+      7,
+      6,
+      6,
+      6,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      4,
+      5,
+      4,
+      5,
+      4,
+      4,
+      5,
+      5,
+      5,
+      4,
+      5,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      2,
+      7
+    ],
+    "mel_frames": 178,
+    "sample_rate": 22050,
+    "audio_duration_s": 2.182675736961451,
+    "synthesis_time_s": 0.06908879999537021,
+    "real_time_factor": 0.03165325880771928,
+    "timings": {
+      "frontend_s": 0.0011174000101163983,
+      "acoustic_s": 0.026502599997911602,
+      "vocoder_s": 0.04119560000253841
+    },
+    "wav": "sample_03.wav"
+  }
+]
