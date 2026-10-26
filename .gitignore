@@ -8,9 +8,7 @@ data/*
 !labs/lab5_service/examples/
 !labs/lab5_service/examples/*.wav
 
-# Итоговая модель лабораторной №4 хранится через Git LFS.
-!labs/lab4_acoustic/artifacts/
-!labs/lab4_acoustic/artifacts/*.pth
+labs/lab4_acoustic/artifacts/best_model_742028.pth
 
 # окружение
 .venv/
