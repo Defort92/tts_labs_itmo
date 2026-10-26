@@ -342,3 +342,13 @@ def initialize_training(
         "course_tts_commit": COURSE_TTS_COMMIT,
     }
     return trainer, config, tokenizer, details
+
+def main() -> None:
+    """Run the upstream course CLI without changing the notebook-facing API."""
+    from train_fastspeech2_course import main as course_main
+
+    course_main()
+
+
+if __name__ == "__main__":
+    main()
